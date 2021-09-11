@@ -149,64 +149,32 @@
         </div>
         <br>
         <hr>
-
-        <div class="contact" style="background-image: url(./images/backgrounds/c_image.jpg); height:70vh;">
-
-            <div class="contacts text-white d-flex flex-column justify-content-center align-items-center">
-                <h3 style="margin-top:20px">CONTACT US</h3>
-
-                
-                <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-                <style type="text/css">
-
-                </style>
-                <div id="mc_embed_signup">
-                    <form
-                        action="https://gmail.us1.list-manage.com/subscribe/post?u=768799461da26377b173226f5&amp;id=e195b0a9eb"
-                        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-                        target="_blank" id="myform" novalidate>
-                        <div id="mc_embed_signup_scroll">
-                            <div class="mc-field-group d-flex">
-                                <input type="text" value="" name="NAME" class="required" id="mce-NAME"
-                                    placeholder="Name">
-                                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"
-                                    placeholder="Email">
+        <div class="contacts" style="background: url(./images/backgrounds/c_image.jpg);70vh">
+            <div class="contact-overlay">
+                <h1 class="text-center text-white b-text">CONTACT US</h1><br>
+                <div class="col-md-12 input">
+                    <form id="form">
+                        <div class="row">
+                            <div class="col-md-2 form"></div>
+                            <input class="col-md-4 form-control name" type="text" id="name" name="name"
+                                placeholder="Name..." required><br><br>
+                            <input class="col-md-4 form-control email" type="email" id="email" name="email"
+                                placeholder="Email..." required>
+                            <div class="col-md-2">
                             </div>
-
-                            <div class="form-floating " style="width:80%">
-                                <textarea id="textarea" placeholder="Your message here" style="height:20vh"></textarea>
-                            </div>
-
-                            <div id="mce-responses" class="clear">
-                                <div class="response" id="mce-error-response" style="display:none"></div>
-                                <div class="response" id="mce-success-response" style="display:none"></div>
-                            </div>
-
-                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-                                    name="b_768799461da26377b173226f5_e195b0a9eb" tabindex="-1" value=""></div>
-                            <div class="clear"><input type="submit" value="Submit" name="subscribe"
-                                    id="mc-embedded-subscribe" class="button"></div>
                         </div>
+                        <div class="row input">
+                            <div class="col-md-2"></div>
+                            <textarea class="form-control col-md-8 text" rows="12" name="message" id="message"
+                                placeholder="Your message here..."></textarea>
+                            <div class="col-md-2"></div>
+                        </div>
+                        <button class="btn btn-success mx-auto d-block submit" id="okButton"
+                            type="submit">Submit</button>
+                        <br>
                     </form>
                 </div>
-                <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'>
-                </script>
-                <script type='text/javascript'>
-                    (function ($) {
-                        window.fnames = new Array();
-                        window.ftypes = new Array();
-                        fnames[6] = 'NAME';
-                        ftypes[6] = 'text';
-                        fnames[0] = 'EMAIL';
-                        ftypes[0] = 'email';
-                    }($));
-                    var $mcj = jQuery.noConflict(true);
-                </script>
-                <!--End mc_embed_signup-->
-
-
             </div>
-
         </div>
 
     </div>
