@@ -9,11 +9,7 @@ $("#form").on("submit", function (event) {
         alert("Oops!! please provide your email and name");
     }
 });
-$(".des-image").click(function () {
-    $(".design").show();
-    $(".des-image").hide();
-   
-});
+
 $(".des-image").click(function () {
     $(".design").show();
     $(".des-image").hide();
@@ -33,4 +29,11 @@ $(".development").click(function () {
     $(".development").hide();
 
 });
-
+$(".p-image").click(function(){
+    $(".product").show();
+    $(".p-image").hide();
+});
+$(".product").click(function(){
+    $(".p-image").show();
+    $(".product").hide();
+});
