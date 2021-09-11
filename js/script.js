@@ -12,13 +12,25 @@ $("#form").on("submit", function (event) {
 $(".des-image").click(function () {
     $(".design").show();
     $(".des-image").hide();
-
+   
 });
 $(".des-image").click(function () {
+    $(".design").show();
+    $(".des-image").hide();
+   
+});
+
+$(".design").click(function () {
     $(".des-image").show();
     $(".design").hide();
 });
-$(".des-image").click(function () {
-    $(".des-image").hide();
-    $(".design").show();
+$(".dev-image").click(function () {
+    $(".development").show();
+    $(".dev-image").hide();
+})
+$(".development").click(function () {
+    $(".dev-image").show();
+    $(".development").hide();
+
 });
+
