@@ -9,3 +9,16 @@ $("#form").on("submit", function (event) {
         alert("Oops!! please provide your email and name");
     }
 });
+$(".des-image").click(function () {
+    $(".design").show();
+    $(".des-image").hide();
+
+});
+$(".des-image").click(function () {
+    $(".des-image").show();
+    $(".design").hide();
+});
+$(".des-image").click(function () {
+    $(".des-image").hide();
+    $(".design").show();
+});
