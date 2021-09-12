@@ -4,7 +4,7 @@ $("#form").on("submit", function (event) {
     let message = $("textarea").val();
 
     if ($("input#name").val() && $("input#email").val()) {
-        alert("Hello!" + name + "Thankyoufor reaching us, we will get back to you in a moment...hurr!!");
+        alert("Hello!"  + name + "Thankyou for reaching us, we will get back to you in a moment...stay tuned!!");
     } else {
         alert("Oops!! please provide your correct  email and name");
     }
