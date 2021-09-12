@@ -9,3 +9,8 @@ hr{
     margin: 10px;
     padding: 10px;
 }
+.wedo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
