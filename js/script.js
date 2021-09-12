@@ -4,7 +4,7 @@ $("#form").on("submit", function (event) {
     let message = $("textarea").val();
 
     if ($("input#name").val() && $("input#email").val()) {
-        alert("Hello!"  + name + "Thankyou for reaching us, we will get back to you in a moment...stay tuned!!");
+        alert("Hello!" + name + "Thankyou for reaching us, we will get back to you in a moment...stay tuned!!");
     } else {
         alert("Oops!! please provide your correct  email and name");
     }
@@ -62,11 +62,11 @@ $("#work6").hover(function () {
     $("#work6").toggle();
     $("w6").show();
 });
-$("#work7").hover(function(){
+$("#work7").hover(function () {
     $("#work7").toggle();
     $("w7").show();
 });
-$("#work8").hover(function(){
+$("#work8").hover(function () {
     $("#work8").toggle();
     $("w8").show();
 });
