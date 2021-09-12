@@ -6,7 +6,7 @@ $("#form").on("submit", function (event) {
     if ($("input#name").val() && $("input#email").val()) {
         alert("Hello!" + name + "Thankyoufor reaching us, we will get back to you in a moment...hurr!!");
     } else {
-        alert("Oops!! please provide your email and name");
+        alert("Oops!! please provide your correct  email and name");
     }
 });
 
@@ -50,3 +50,4 @@ $("#work3").hover(function () {
     $("#work3").toggle();
     $("#w3").show();
 });
+$()
