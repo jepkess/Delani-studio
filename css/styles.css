@@ -4,3 +4,8 @@
 hr{
     color: rgb(255, 0, 43);
 }
+.services{
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+}
