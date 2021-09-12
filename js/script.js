@@ -44,9 +44,9 @@ $("#work1").hover(function () {
 });
 $("#work2").hover(function () {
     $("#work2").toggle();
-    $("#w2").toggle();
+    $("#w2").show();
 });
 $("#work3").hover(function () {
     $("#work3").toggle();
-    $("#w3").toggle();
+    $("#w3").show();
 });
