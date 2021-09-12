@@ -8,7 +8,6 @@ This project is a web application for Delani studio that shows details about the
 VINCENT KIPKIRUI-WEB DEVELOPER.
 
 
-
 ## setup.
 1. git init - initialised the new repo.
 2. git clone https://github.com/jepkess/Delani-studio.git.
