@@ -21,6 +21,8 @@ VINCENT KIPKIRUI-WEB DEVELOPER
  4. JQUERY
  
 
+## BDD
+
  ## live Demo 
 
 
@@ -28,4 +30,5 @@ VINCENT KIPKIRUI-WEB DEVELOPER
  ## contact information.
 
  ## licence
+ This project is under [MIT](LICENSE.md)
  
