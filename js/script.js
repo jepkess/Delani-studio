@@ -37,3 +37,12 @@ $(".product").click(function(){
     $(".p-image").show();
     $(".product").hide();
 });
+$("#work1").hover(function(){
+    $("#work1").toggle();
+    $("#w1").show();
+
+});
+$("#work2").hover(function(){
+    $("#work2").toggle();
+    $("#w2").slideshow();
+});
