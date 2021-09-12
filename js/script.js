@@ -50,4 +50,11 @@ $("#work3").hover(function () {
     $("#work3").toggle();
     $("#w3").show();
 });
-$()
+$("#work4").hover(function(){
+    $("#work4").toggle();
+    $("w4").show();
+});
+$("#work5").hover(function(){
+    $("#work5").toggle();
+    $("w5").show();
+});

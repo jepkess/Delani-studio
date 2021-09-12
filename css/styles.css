@@ -1,8 +1,8 @@
 .contacts{
     background: fixed ;
 }
-hr{
-    color: rgb(255, 0, 43);
+/* hr{
+    transform: ; */
 }
 .services{
     height: 300px;
@@ -10,7 +10,9 @@ hr{
     padding: 10px;
 }
 .wedo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+
 }
+
