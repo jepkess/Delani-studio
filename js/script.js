@@ -13,7 +13,7 @@ $("#form").on("submit", function (event) {
 $(".des-image").click(function () {
     $(".design").show();
     $(".des-image").hide();
-   
+
 });
 
 $(".design").click(function () {
@@ -29,20 +29,24 @@ $(".development").click(function () {
     $(".development").hide();
 
 });
-$(".p-image").click(function(){
+$(".p-image").click(function () {
     $(".product").show();
     $(".p-image").hide();
 });
-$(".product").click(function(){
+$(".product").click(function () {
     $(".p-image").show();
     $(".product").hide();
 });
-$("#work1").hover(function(){
+$("#work1").hover(function () {
     $("#work1").toggle();
     $("#w1").show();
 
 });
-$("#work2").hover(function(){
+$("#work2").hover(function () {
     $("#work2").toggle();
-    $("#w2").slideshow();
+    $("#w2").toggle();
+});
+$("#work3").hover(function () {
+    $("#work3").toggle();
+    $("#w3").toggle();
 });
